@@ -12,7 +12,7 @@
         <!-- Desktop Menu -->
         <nav class="menu hidden md:flex gap-8 items-center">
             <a href="{{ route('home_page') }}" class="text-black text-base hover:text-gray-700 hover:underline font-medium">Home</a>
-            <a href="{{ route('chat.index') }}" class="text-black text-base hover:text-gray-700 hover:underline font-medium">Contact</a>
+            <a href="#" class="text-black text-base hover:text-gray-700 hover:underline font-medium">Contact</a>
 
             <!-- Dropdown Categories -->
             <div id="categoryDropdownContainer" class="relative">
@@ -84,7 +84,7 @@
         class="hidden flex flex-col gap-4 bg-[#b0cee3] px-6 py-4 md:hidden border-t border-gray-300">
 
         <a href="{{ route('home_page') }}" class="text-black text-base font-medium">Home</a>
-        <a href="{{ route('chat.index') }}" class="text-black text-base font-medium">Contact</a>
+        <a href="#" class="text-black text-base font-medium">Contact</a>
 
         <!-- Mobile Categories Dropdown -->
         <details class="group">

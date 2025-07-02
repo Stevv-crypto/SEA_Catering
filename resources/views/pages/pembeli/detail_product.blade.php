@@ -36,15 +36,6 @@
       </p>
 
       <hr class="my-2">
-      <p class="mb-2">
-        <span class="font-medium">Category:</span> {{ $product->category->name ?? '-' }}
-      </p>
-      <p class="mb-2">
-        <span class="font-medium">Merk:</span> {{ $product->merk->name ?? '-' }}
-      </p>
-      <p class="mb-4">
-        <span class="font-medium">Warranty:</span> {{ $product->warranty ?? '-' }}
-      </p>
 
       <!-- Add to Cart Section -->
       @php
@@ -73,10 +64,6 @@
         <div class="flex items-center gap-2 mb-2">
           <i class='bx bx-package text-lg mr-2'></i>
           <span>Free Delivery</span>
-        </div>
-        <hr>
-        <div class="w-full px-6 py-3 mt-2 rounded text-center border border-gray-500">
-          {{ $product->warranty ?? 'No warranty information.' }}
         </div>
       </div>
     </div>
